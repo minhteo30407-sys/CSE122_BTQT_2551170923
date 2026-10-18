@@ -1,0 +1,20 @@
+body{
+    text-align: center;
+    background-color: #FFFDE7;
+    border-color: #9E9E9E;
+}
+h1{
+    background-color: #FFD9E6;
+    color: #D40000;
+}
+p{
+    color:  #0033CC;
+    font-style: italic;
+}
+.k2{
+    color: #D40000;
+}
+hr{
+    width: 55%;
+    color: #0033CC;
+}

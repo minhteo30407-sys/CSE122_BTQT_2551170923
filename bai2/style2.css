@@ -1,0 +1,19 @@
+body{
+    background: linear-gradient(to right, #C9A227, #A8861B)
+}
+h1{
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 3px #555;
+}
+p{
+    color: white;
+    text-align: justify;
+    margin: 25px;
+}
+img{
+    float: right;
+    border: 3px solid white;
+    margin-left: 10px;
+    margin-right: 10px;
+}

@@ -1,0 +1,102 @@
+
+body {
+    margin: 0;
+    padding: 24px;
+    background-color: #f0f4f8;
+    color: #334155;
+}
+
+.container {
+    margin: 24px auto;
+    background-color: white;
+    border-radius: 24px;
+    overflow: hidden;
+    box-shadow: 0 15px 35px #00000015;
+}
+
+.header {
+    padding: 36px 48px;
+    background-color: #11796f;
+    color: white;
+}
+
+.header h1 {
+    margin: 0 0 10px;
+}
+
+.header p {
+    margin: 0;
+}
+
+form {
+    padding: 40px;
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 28px 24px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 16px 20px;
+    border: 1px solid #cbd5e1;
+    border-radius: 12px;
+    font-family: inherit;
+    font-size: 20px;
+}
+
+.full-width {
+    grid-column: 1 / -1;
+}
+
+.checkbox-group {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 0;
+}
+
+.checkbox-group input {
+    width: 20px;
+    height: 20px;
+    margin-left: 36%;
+}
+
+.checkbox-group label {
+    max-width: 280px;
+    font-size: 20px;
+}
+
+.buttons {
+    display: flex;
+    gap: 18px;
+    margin-top: 28px;
+}
+
+button {
+    padding: 18px 32px;
+    border: none;
+    border-radius: 12px;
+    background-color: #11796f;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+button[type="reset"] {
+    background-color: #e2e8f0;
+    color: #334155;
+}

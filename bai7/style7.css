@@ -1,0 +1,41 @@
+h1{
+    background-color: #C8102E;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 15px;
+    margin: 0;
+}
+h2{
+    background-color: #FBE3E8;
+    color:  #C8102E;
+    text-align: center;
+    padding: 5px;
+    margin: 0;
+}
+.container{
+    display: flex;
+}
+.left{
+    width: 50%;
+    padding-top: 300px;
+}
+.right{
+    width: 50%;
+    border-left: 1px solid #878484;
+    margin-top: 30px;
+}
+span{
+    font-weight: bold;
+}
+.title{
+    color: #C8102E;
+    font-weight: bold;
+    padding-left: 25px;
+}
+.pic{
+    float: right;
+    width: 50%;
+}
+.pic img{
+    width: 80%;
+}

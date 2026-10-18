@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 24px;
+    font-family: Arial, sans-serif;
+}
+.hoso{
+    display: flex;
+    background-color: white;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 15px 35px #0002;
+}
+.cot-trai{
+    flex: 1;
+    padding: 40px 32px;
+    background: linear-gradient(to bottom, #1565C0, #0d3f7a);
+    color: white;
+    text-align: center;
+}
+.anh-dai-dien{
+    width: 160px;
+    height: 160px;
+    background-color: white;
+    color: #1565C0;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto ;
+    font-size: 56px;
+    font-weight: bold;
+}
+.cot-trai h2{
+    margin: 5px;
+}
+.cot-trai p{
+    margin-bottom: 10px;
+}
+.thong-tin{
+    margin-top: 30px;
+    text-align: left;
+}
+.cot-phai{
+    flex: 2;
+    padding: 24px 44px;
+}
+.cot-phai h2{
+    color: #1565C0;
+    border-bottom: 3px solid #e3edf8;
+    padding-bottom: 8px;
+    margin-bottom: 14px;
+}
+.ky-nang{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 24px;
+}
+.ky-nang span{
+    background-color: #e3f0ff;
+    color: #0d3f7a;
+    padding: 8px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.cot-phai a{
+    color: #1565C0;
+}

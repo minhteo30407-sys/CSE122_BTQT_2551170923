@@ -1,0 +1,30 @@
+header{
+    color: #C2185B ;
+    text-align: center;
+}
+.container{
+    display: flex;
+}
+img{
+    border-radius: 5px;
+    width: 30%;
+    object-fit: contain;
+}
+.content{
+    width: 70%;
+}
+.title{
+    background-color: #FFC0CB ;
+    display: inline-block;
+}
+.square{
+    list-style: square;
+}
+.circle{
+    list-style: circle;
+}
+.copyright{
+    color: #0000EE;
+    text-decoration: underline;
+    text-align: right;
+}
