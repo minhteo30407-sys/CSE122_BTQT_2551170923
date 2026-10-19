@@ -1,0 +1,59 @@
+body{
+    padding: 10px;
+}
+.container{
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 1px 20px #cdcdcd;
+}
+.calendar{
+    border-radius: 10px;
+    border: 2px solid  #ccc;
+    padding: 20px;
+}
+.calendar .year{
+    color: #C62828;
+    text-align: center;
+}
+.calendar .month,.weekday{
+    color: #1565C0;
+    font-size: 18px;
+    text-align: center;
+}
+.calendar .day{
+    color: #C62828;
+    font-size: 52px;
+    text-align: center;
+    font-weight: bold;
+}
+.greeting{
+    color: #C62828;
+    font-style: italic;
+    text-align: center;
+    padding: 10px;
+}
+.form{
+    border-radius: 10px;
+    border: 2px solid #1565C0;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+}
+label{
+    display: block;
+    text-align: center;
+}
+input{
+    width: 50px;
+    text-align: center;
+    padding: 5px;
+}
+button{
+    background-color: #546E7A;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
