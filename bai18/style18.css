@@ -1,0 +1,47 @@
+body{
+    background-color: #fffdf8;
+    margin: 0;
+    padding: 0 20px;
+}
+h1{
+    color:  #E65100;
+    font-size: 40px;
+    margin-bottom: 0;
+}
+.phu{
+    color: #E65100;
+    font-size: 25px;
+    margin: 0;
+}
+.drop::first-letter{
+    color: #E65100;
+    font-size: 50px;
+    font-weight: bold;
+    float: left;
+    line-height: 1;
+}
+p{
+    text-align: justify;
+}
+img{
+    float: right;
+    width: 250px;
+    border-radius: 15px;
+    margin: 10px;
+}
+.huongvi{
+    clear: both;
+    border: 2px solid #2e7d32;
+    background-color: #f4fbf4;
+    border-radius: 10px;
+    padding: 10px 30px;
+    margin: 20px 0;
+}
+h2{
+    color: #2e7d32;
+    font-style: italic;
+    font-size: 25px;
+}
+ul{
+    columns: 2;
+}
