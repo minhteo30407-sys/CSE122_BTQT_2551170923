@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 20px;
+}
+.container{
+    display: flex;
+    gap: 10px;
+}
+img{
+    flex: 33%;
+    width: 300px;
+    box-shadow: 0 5px 20px #ccc;
+    border-radius: 10px;
+}
+h1{
+    margin-bottom: 15px;
+    margin-top: 0;
+    color: #C9A227;
+    text-shadow: 3px 3px 4px #999;
+}
+.content{
+    border-radius: 12px;
+    border: 2px dashed #E07B00;
+    padding: 15px;
+    text-align: justify;
+}
+.content span{
+    color: #C62828;
+    font-weight: bold;
+}
+.content p{
+    margin: 0;
+}
