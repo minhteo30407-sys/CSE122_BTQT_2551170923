@@ -1,0 +1,110 @@
+
+body {
+    padding: 36px 20px;
+    background-color: #101416;
+    color: #eeeeee;
+    text-align: center;
+}
+
+.khung {
+    width: 660px;
+    max-width: 90%;
+    margin: 0 auto 36px;
+    padding: 24px;
+    box-sizing: border-box;
+    background-color: #1c2226;
+    border-radius: 24px;
+}
+
+#hoa {
+    display: block;
+    max-width: 100%;
+    max-height: 260px;
+    margin: auto;
+    object-fit: contain;
+    filter: grayscale(1);
+    transition: filter 0.3s, transform 0.3s;
+}
+
+.tieude {
+    font-size: 42px;
+    font-style: italic;
+    background: linear-gradient(90deg, #c9a227, #fff0a0, #c9a227);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.thanh-nut {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+button {
+    padding: 12px 24px;
+    border: 2px solid #343e44;
+    border-radius: 12px;
+    background-color: #232b30;
+    color: #eeeeee;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #343e44;
+}
+
+button.chon {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+#hoa.xray {
+    filter: grayscale(1) invert(1);
+}
+
+#hoa.invert {
+    filter: invert(1);
+}
+
+#hoa.fliph {
+    transform: scaleX(-1);
+}
+
+#hoa.flipv {
+    transform: scaleY(-1);
+}
+
+#hoa.glow {
+    filter: drop-shadow(0 0 12px gold);
+}
+
+#hoa.shadow {
+    filter: drop-shadow(5px 5px 5px #777);
+}
+
+#hoa.bold-shadow {
+    filter: drop-shadow(8px 8px 0 #555);
+}
+
+#hoa.dropshadow {
+    filter: drop-shadow(0 8px 8px #000);
+}
+
+#hoa.blur {
+    filter: blur(3px);
+}
+
+#hoa.wave {
+    filter: url(#song);
+}
+
+#hoa.mask {
+    mask-image: linear-gradient(to bottom, black, transparent);
+}
+
+#hoa.alpha {
+    opacity: 0.4;
+}

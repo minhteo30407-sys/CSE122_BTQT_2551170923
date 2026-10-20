@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style20.css">
+</head>
+<body>
+    <div class="khung">
+        <img id="hoa" src="../Anh/Bai20/hoahong.gif" alt="Hoa hồng">
+        <div class="tieude">Special For You</div>
+    </div>
+
+    <div class="thanh-nut">
+        <button class="chon" data-hieuung="gray">Gray</button>
+        <button data-hieuung="xray">Xray</button>
+        <button data-hieuung="invert">Invert</button>
+        <button data-hieuung="fliph">FlipH</button>
+        <button data-hieuung="flipv">FlipV</button>
+        <button data-hieuung="glow">Glow</button>
+        <button data-hieuung="shadow">Shadow</button>
+        <button data-hieuung="bold-shadow">Bold Shadow</button>
+        <button data-hieuung="dropshadow">DropShadow</button>
+        <button data-hieuung="blur">Blur</button>
+        <button data-hieuung="wave">Wave</button>
+        <button data-hieuung="mask">Mask</button>
+        <button data-hieuung="alpha">Alpha</button>
+    </div>
+
+    <svg width="0" height="0">
+        <filter id="song">
+            <feTurbulence type="fractalNoise"
+                baseFrequency="0.02" numOctaves="2"
+                result="nhieu"/>
+            <feDisplacementMap in="SourceGraphic"
+                in2="nhieu" scale="12"/>
+        </filter>
+    </svg>
+
+    <script src="script20.js"></script>
+</body>
+</html>
