@@ -1,0 +1,55 @@
+header {
+    background: #2E7D32;
+    color: #FFEB3B;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.intro {
+    color: #1b5e20;
+    font-style: italic;
+    margin: 0;
+    padding: 20px 30px;
+    border-bottom: 1px solid #ddd;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 30px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.anh img {
+    display: block;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 3px solid #2E7D32;
+}
+
+.mota {
+    padding: 15px 20px;
+}
+
+.mota h2 {
+    color: #1b5e20;
+    font-size: 18px;
+    margin: 0 0 5px;
+}
+
+.mota p {
+    margin: 0;
+}
