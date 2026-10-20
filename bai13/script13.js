@@ -2,8 +2,8 @@ let folder="Anh/Bai13/";
 function change(so){
     let chuc=Math.floor(so/10);
     let donVi=so%10;
-    return '<img src="../'+folder+"0"+chuc+'".gif>'+
-            '<img src="../'+folder+"0"+donVi+'".gif>'
+    return '<img src="../'+folder+"0"+chuc+'.gif">'+
+            '<img src="../'+folder+"0"+donVi+'.gif">'
 }
 function greeting(gio){
     if(gio<12){
