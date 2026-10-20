@@ -30,5 +30,5 @@ function update(){
 }
 document.addEventListener("DOMContentLoaded",function(){
     update();
-    setInterval(change,1000);
+    setInterval(update,1000);
 });
